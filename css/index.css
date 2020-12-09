@@ -1,0 +1,18 @@
+
+header {
+    /* background: white; */
+    text-align: center;
+    padding: 2rem 0 1rem;
+}
+
+.formulario{
+    background: white;
+
+    border: solid 2px var(--text-color);
+    border-radius: 0px 0px 20px 20px;
+
+    margin: 0rem auto 2rem;
+    padding: 2rem;
+}
+
+
