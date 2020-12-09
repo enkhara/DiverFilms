@@ -1,0 +1,17 @@
+.logo,
+.logo span {
+    font-family: 'diver-font', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bold;
+}
+
+.logo span{
+    /*--hereda el tamaño de su padre (.logo)-- */
+    font-size: inherit;
+    color: var(--logo-color);
+}
+
+.logo {
+    font-size: 3rem;
+    color: var(--text-color);
+    ;
+}
