@@ -1,0 +1,47 @@
+/* -- importamos fuentes -- */
+
+@font-face {
+    font-family: diver-font;
+    src: url("../fonts/Satisfy-Regular.ttf");
+}
+
+@font-face{
+    font-family: texts;
+    src: url('../fonts/MeriendaOne-Regular.ttf');
+}
+
+body {
+    background: var(--logo-color);
+    margin: auto;
+    
+}
+
+nav {
+    background: var(--nav-color);
+    border-bottom: solid 2px var(--text-color);
+    padding-left: 1rem;
+}
+
+main {
+    /* background: rgb(201, 183, 188); */
+    /* border: solid thin blueviolet; */
+    display: flex;
+    /* width: 100%;
+    height: 100%; */
+    position: relative;
+    
+}
+
+footer {
+    background: var(--nav-color);
+    border-top: solid 2px var(--text-color);
+    
+}
+
+h1 {
+    color: var(--text-color);
+    font-family: texts;
+    font-size: 2rem;
+}
+
+
